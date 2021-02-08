@@ -1,0 +1,47 @@
+/*Universal*/
+body{
+    background-color:gainsboro;
+    font-family:helvetica;
+    font-size:1.3em;
+}
+a{
+    color:red;
+    transition: color 300ms ease-in;
+}
+a:hover{
+    color:darkgoldenrod;
+}
+/*ID Specific*/
+#bear{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+    height:400px;
+}
+#intro h1{
+    text-align:center;
+}
+#intro p{
+    text-align:center;
+    
+}
+#links p{
+    text-align:center;
+}
+#prLinks ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    border: 1px groove yellow;
+}
+#prLinks li{
+    border: 1px groove black;
+}
+
+#prLinks h1{
+    text-align:center;
+}
+
+
+
